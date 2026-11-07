@@ -1,0 +1,804 @@
+{
+  "type": "FeatureCollection",
+  "metadata": {
+    "title": "Gazprom Gas Infrastructure Portfolio: Europe (2022)",
+    "description": "Structured dataset and GeoJSON FeatureCollection of operating gas pipelines and underground gas storage facilities in Europe where Gazprom held an operator stake or storage capacity in 2022, based on the IHS Markit midstream map.",
+    "map_source": "IHS Markit midstream content (EDIN: 2005594)",
+    "copyright_year": 2022,
+    "scope_note": "Pipelines where Gazprom has a stake in the operator in at least one section, plus European underground gas storage (UGS) facilities with Gazprom/Wingas/Astora participation.",
+    "image_dimensions": {
+      "width_px": 1024,
+      "height_px": 671
+    },
+    "scale_bar": {
+      "kilometers": 540,
+      "miles": 280
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": "pipeline-nord-stream",
+      "properties": {
+        "feature_type": "operating_gas_pipeline",
+        "name": "Nord Stream (Nord Stream 1 & 2 Corridor)",
+        "corridor": "Baltic Offshore Corridor",
+        "environment": "Offshore (Baltic Sea)",
+        "origin_country": "Russia",
+        "origin_location": "Vyborg / Ust-Luga",
+        "destination_country": "Germany",
+        "destination_location": "Lubmin (Greifswald)",
+        "countries_crossed": [
+          "Russia",
+          "Finland (EEZ)",
+          "Sweden (EEZ)",
+          "Denmark (EEZ)",
+          "Germany"
+        ],
+        "length_km": 1224,
+        "capacity_bcm_per_year": 55.0,
+        "combined_corridor_capacity_bcm_per_year": 110.0,
+        "diameter_mm": 1220,
+        "operator": "Nord Stream AG (Gazprom 51% stake)",
+        "status_2022": "Operated until late August 2022; damaged by subsea explosions near Bornholm on 26 September 2022 (3 of 4 lines rendered inoperable).",
+        "source_url": "https://en.wikipedia.org/wiki/Nord_Stream_1"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            28.75,
+            60.55
+          ],
+          [
+            26.5,
+            59.95
+          ],
+          [
+            23.0,
+            59.2
+          ],
+          [
+            19.8,
+            57.5
+          ],
+          [
+            15.7,
+            55.53
+          ],
+          [
+            13.65,
+            54.14
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pipeline-yamal-europe",
+      "properties": {
+        "feature_type": "operating_gas_pipeline",
+        "name": "Yamal–Europe Pipeline (including Northern Lights / SRTO–Torzhok trunkline)",
+        "corridor": "Central Belarus–Poland Corridor",
+        "environment": "Onshore",
+        "origin_country": "Russia",
+        "origin_location": "Yamal Peninsula / Ukhta / Torzhok",
+        "destination_country": "Germany",
+        "destination_location": "Mallnow (Frankfurt an der Oder)",
+        "countries_crossed": [
+          "Russia",
+          "Belarus",
+          "Poland",
+          "Germany"
+        ],
+        "length_km": 4107,
+        "capacity_bcm_per_year": 33.0,
+        "diameter_mm": 1420,
+        "operator": "Gazprom Transgaz Belarus (Belarus section) / EuRoPol GAZ (Poland section, Gazprom 48% stake)",
+        "status_2022": "Russian westward flows halted in May 2022 following sanctions on EuRoPol GAZ; operated in reverse (eastward from Germany to Poland) during parts of 2022.",
+        "source_url": "https://en.wikipedia.org/wiki/Yamal%E2%80%93Europe_pipeline"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            53.7,
+            63.57
+          ],
+          [
+            45.0,
+            60.5
+          ],
+          [
+            34.96,
+            57.04
+          ],
+          [
+            31.0,
+            55.2
+          ],
+          [
+            27.56,
+            53.9
+          ],
+          [
+            23.68,
+            52.09
+          ],
+          [
+            21.01,
+            52.23
+          ],
+          [
+            14.48,
+            52.45
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pipeline-brotherhood-ukraine",
+      "properties": {
+        "feature_type": "operating_gas_pipeline",
+        "name": "Urengoy–Pomary–Uzhhorod ('Brotherhood' / Bratstvo) & Progress Corridor",
+        "corridor": "Ukrainian Central Transit Corridor",
+        "environment": "Onshore",
+        "origin_country": "Russia",
+        "origin_location": "Urengoy / Sudzha (Russia–Ukraine border)",
+        "destination_country": "Slovakia / Czechia / Austria / Germany",
+        "destination_location": "Uzhhorod (Ukraine) / Velké Kapušany (Slovakia) / Baumgarten (Austria) / Waidhaus (Germany)",
+        "countries_crossed": [
+          "Russia",
+          "Ukraine",
+          "Slovakia",
+          "Czechia",
+          "Austria",
+          "Germany",
+          "Hungary"
+        ],
+        "length_km": 4500,
+        "capacity_bcm_per_year": 32.0,
+        "diameter_mm": 1420,
+        "operator": "Gazprom / GTSOU / Eustream / NET4GAS",
+        "status_2022": "Active in 2022 via the Sudzha entry point (~40–43 mcm/day) despite the Russo-Ukrainian war; Sokhranovka entry point halted in May 2022.",
+        "source_url": "https://en.wikipedia.org/wiki/Urengoy%E2%80%93Pomary%E2%80%93Uzhhorod_pipeline"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            45.0,
+            54.0
+          ],
+          [
+            35.27,
+            51.19
+          ],
+          [
+            30.52,
+            50.1
+          ],
+          [
+            24.0,
+            49.0
+          ],
+          [
+            22.3,
+            48.62
+          ],
+          [
+            18.0,
+            48.5
+          ],
+          [
+            16.86,
+            48.31
+          ],
+          [
+            14.3,
+            49.8
+          ],
+          [
+            12.53,
+            49.64
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pipeline-soyuz-southern-russia",
+      "properties": {
+        "feature_type": "operating_gas_pipeline",
+        "name": "Soyuz Pipeline (Orenburg–Western Border)",
+        "corridor": "Ukrainian Southern/Eastern Feed Corridor",
+        "environment": "Onshore",
+        "origin_country": "Russia",
+        "origin_location": "Orenburg (via Kazakhstan & Sokhranovka)",
+        "destination_country": "Ukraine / Slovakia",
+        "destination_location": "Uzhhorod",
+        "countries_crossed": [
+          "Russia",
+          "Kazakhstan",
+          "Ukraine",
+          "Slovakia"
+        ],
+        "length_km": 2750,
+        "capacity_bcm_per_year": 26.0,
+        "diameter_mm": 1420,
+        "operator": "Gazprom / GTSOU",
+        "status_2022": "Transit via the Sokhranovka metering station was suspended in May 2022 after Ukrainian operator GTSOU declared force majeure.",
+        "source_url": "https://www.gem.wiki/Soyuz_Gas_Pipeline"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            55.1,
+            51.77
+          ],
+          [
+            51.37,
+            51.23
+          ],
+          [
+            44.5,
+            50.0
+          ],
+          [
+            40.25,
+            48.95
+          ],
+          [
+            35.0,
+            48.45
+          ],
+          [
+            28.5,
+            48.8
+          ],
+          [
+            22.3,
+            48.62
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pipeline-turkstream-balkan-stream",
+      "properties": {
+        "feature_type": "operating_gas_pipeline",
+        "name": "TurkStream & Balkan Stream Extension",
+        "corridor": "Black Sea / Southeastern Europe Corridor",
+        "environment": "Offshore (Black Sea) & Onshore (Balkans)",
+        "origin_country": "Russia",
+        "origin_location": "Russkaya CS (Anapa, Krasnodar Krai)",
+        "destination_country": "Turkey / Bulgaria / Serbia / Hungary",
+        "destination_location": "Kıyıköy (Turkey) → Malkoçlar → Provadia (Bulgaria) → Zaječar (Serbia) → Horgoš (Hungary)",
+        "countries_crossed": [
+          "Russia",
+          "Turkey",
+          "Bulgaria",
+          "Serbia",
+          "Hungary"
+        ],
+        "length_km": 930,
+        "capacity_bcm_per_year": 31.5,
+        "diameter_mm": 813,
+        "operator": "South Stream Transport B.V. (Gazprom subsidiary) / Bulgartransgaz / Gastrans (Gazprom 51% stake in Serbia)",
+        "status_2022": "Fully operational throughout 2022 across two 15.75 bcm/year lines supplying Turkey and Southeastern/Central Europe.",
+        "source_url": "https://en.wikipedia.org/wiki/TurkStream"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            39.5,
+            45.05
+          ],
+          [
+            37.34,
+            44.89
+          ],
+          [
+            33.0,
+            43.1
+          ],
+          [
+            28.09,
+            41.63
+          ],
+          [
+            27.2,
+            42.18
+          ],
+          [
+            27.43,
+            43.18
+          ],
+          [
+            22.28,
+            43.9
+          ],
+          [
+            20.46,
+            44.82
+          ],
+          [
+            19.97,
+            46.15
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pipeline-trans-balkan",
+      "properties": {
+        "feature_type": "operating_gas_pipeline",
+        "name": "Trans-Balkan Pipeline",
+        "corridor": "Western Black Sea Onshore Corridor",
+        "environment": "Onshore",
+        "origin_country": "Ukraine",
+        "origin_location": "Orlivka (Ukraine–Romania border)",
+        "destination_country": "Turkey / Greece",
+        "destination_location": "Malkoçlar (Turkey) / Sidirokastro (Greece)",
+        "countries_crossed": [
+          "Ukraine",
+          "Moldova",
+          "Romania",
+          "Bulgaria",
+          "Turkey",
+          "Greece"
+        ],
+        "capacity_bcm_per_year": 27.0,
+        "operator": "GTSOU / Moldovagaz (Gazprom 50% stake) / Transgaz / Bulgartransgaz",
+        "status_2022": "Partially utilized in bidirectional/reverse mode in 2022 (~2 bcm from TurkStream into Romania and supplies to Moldova).",
+        "source_url": "https://en.wikipedia.org/wiki/Trans-Balkan_pipeline"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            30.5,
+            47.0
+          ],
+          [
+            28.86,
+            47.01
+          ],
+          [
+            28.45,
+            45.32
+          ],
+          [
+            28.15,
+            43.75
+          ],
+          [
+            27.43,
+            43.18
+          ],
+          [
+            26.5,
+            41.7
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pipeline-baltic-finland-network",
+      "properties": {
+        "feature_type": "operating_gas_pipeline",
+        "name": "Finnish & Baltic Connector Pipelines (Vyborg–Imatra, Valdai–Pskov–Riga, Minsk–Vilnius–Kaliningrad)",
+        "corridor": "Northwestern Russia–Finland–Baltic Corridor",
+        "environment": "Onshore",
+        "origin_country": "Russia",
+        "origin_location": "Torzhok / Valdai / St. Petersburg",
+        "destination_country": "Finland / Estonia / Latvia / Lithuania / Kaliningrad (Russia)",
+        "destination_location": "Helsinki, Tallinn, Riga, Vilnius, Kaliningrad",
+        "countries_crossed": [
+          "Russia",
+          "Finland",
+          "Estonia",
+          "Latvia",
+          "Lithuania",
+          "Belarus"
+        ],
+        "operator": "Gazprom Transgaz Saint Petersburg / Gasgrid Finland / Elering / Conexus Baltic Grid / Amber Grid",
+        "status_2022": "Flows to Finland and the Baltic states were halted in April–May 2022; transit to Kaliningrad via Lithuania continued.",
+        "source_url": "https://www.econstor.eu/bitstream/10419/103975/1/799661473.pdf"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            30.3,
+            59.93
+          ],
+          [
+            28.77,
+            61.17
+          ],
+          [
+            24.94,
+            60.17
+          ],
+          [
+            24.75,
+            59.44
+          ],
+          [
+            27.8,
+            57.8
+          ],
+          [
+            24.11,
+            56.95
+          ],
+          [
+            25.28,
+            54.69
+          ],
+          [
+            20.51,
+            54.71
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pipeline-opal-eugal",
+      "properties": {
+        "feature_type": "operating_gas_pipeline",
+        "name": "OPAL (Ostsee-Pipeline-Anbindungsleitung) & EUGAL",
+        "corridor": "German Eastern North–South Trunkline",
+        "environment": "Onshore",
+        "origin_country": "Germany",
+        "origin_location": "Lubmin (Greifswald)",
+        "destination_country": "Czechia",
+        "destination_location": "Olbernhau / Brandov (German–Czech border)",
+        "countries_crossed": [
+          "Germany",
+          "Czechia"
+        ],
+        "length_km": 473,
+        "capacity_bcm_per_year": 35.0,
+        "diameter_mm": 1400,
+        "operator": "GASCADE Gastransport GmbH / OPAL Gastransport (WIGA joint venture: Gazprom Germania 49.98%, Wintershall Dea 50.02%)",
+        "status_2022": "Placed under German Federal Network Agency (Bundesnetzagentur) trusteeship in April 2022 via Gazprom Germania (later SEFE).",
+        "source_url": "https://en.wikipedia.org/wiki/OPAL_pipeline"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.65,
+            54.14
+          ],
+          [
+            13.56,
+            52.05
+          ],
+          [
+            13.38,
+            50.65
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pipeline-nel",
+      "properties": {
+        "feature_type": "operating_gas_pipeline",
+        "name": "NEL (Nordeuropäische Erdgasleitung)",
+        "corridor": "German Northern East–West Trunkline",
+        "environment": "Onshore",
+        "origin_country": "Germany",
+        "origin_location": "Lubmin (Greifswald)",
+        "destination_country": "Germany",
+        "destination_location": "Rehden (Lower Saxony)",
+        "countries_crossed": [
+          "Germany"
+        ],
+        "length_km": 440,
+        "capacity_bcm_per_year": 20.0,
+        "diameter_mm": 1400,
+        "operator": "NEL Gastransport GmbH (WIGA / GASCADE network, Gazprom Germania stake)",
+        "status_2022": "Operating in 2022; placed under German federal trusteeship in April 2022.",
+        "source_url": "https://en.wikipedia.org/wiki/NEL_pipeline"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.65,
+            54.14
+          ],
+          [
+            11.4,
+            53.6
+          ],
+          [
+            9.99,
+            53.45
+          ],
+          [
+            8.48,
+            52.61
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pipeline-jagal-stegal",
+      "properties": {
+        "feature_type": "operating_gas_pipeline",
+        "name": "JAGAL (Jamal-Gas-Anbindungsleitung) & STEGAL",
+        "corridor": "Central German East–West Connection",
+        "environment": "Onshore",
+        "origin_country": "Germany",
+        "origin_location": "Mallnow (Polish border)",
+        "destination_country": "Germany",
+        "destination_location": "Rückersdorf / Reckrod (connecting to MIDAL)",
+        "countries_crossed": [
+          "Germany"
+        ],
+        "length_km": 652,
+        "capacity_bcm_per_year": 33.0,
+        "diameter_mm": 1200,
+        "operator": "GASCADE Gastransport GmbH (WIGA joint venture: Gazprom Germania / Wintershall Dea)",
+        "status_2022": "Operating in 2022; placed under German federal trusteeship in April 2022.",
+        "source_url": "https://en.wikipedia.org/wiki/JAGAL"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            14.48,
+            52.45
+          ],
+          [
+            12.2,
+            50.82
+          ],
+          [
+            9.83,
+            50.78
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pipeline-midal-wedal",
+      "properties": {
+        "feature_type": "operating_gas_pipeline",
+        "name": "MIDAL (Mitte-Deutschland-Anbindungsleitung) & WEDAL",
+        "corridor": "Western German North–South & Belgium Connector",
+        "environment": "Onshore",
+        "origin_country": "Germany",
+        "origin_location": "Bunde / Rysum (North Sea coast)",
+        "destination_country": "Germany / Belgium / France",
+        "destination_location": "Ludwigshafen / Jockgrim & Aachen (Belgian border via WEDAL)",
+        "countries_crossed": [
+          "Germany"
+        ],
+        "length_km": 1021,
+        "capacity_bcm_per_year": 12.8,
+        "diameter_mm": 1000,
+        "operator": "GASCADE Gastransport GmbH (WIGA joint venture: Gazprom Germania / Wintershall Dea)",
+        "status_2022": "Operating in 2022; placed under German federal trusteeship in April 2022.",
+        "source_url": "https://en.wikipedia.org/wiki/MIDAL"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.27,
+            53.18
+          ],
+          [
+            8.48,
+            52.61
+          ],
+          [
+            8.75,
+            52.08
+          ],
+          [
+            6.08,
+            50.78
+          ],
+          [
+            9.83,
+            50.78
+          ],
+          [
+            8.44,
+            49.48
+          ],
+          [
+            8.28,
+            49.09
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pipeline-bbl",
+      "properties": {
+        "feature_type": "operating_gas_pipeline",
+        "name": "BBL Pipeline (Balgzand Bacton Line)",
+        "corridor": "North Sea Netherlands–UK Interconnector",
+        "environment": "Offshore (North Sea)",
+        "origin_country": "Netherlands",
+        "origin_location": "Balgzand (Anna Paulowna, North Holland)",
+        "destination_country": "United Kingdom",
+        "destination_location": "Bacton Gas Terminal (Norfolk)",
+        "countries_crossed": [
+          "Netherlands",
+          "United Kingdom"
+        ],
+        "length_km": 235,
+        "capacity_bcm_per_year": 19.2,
+        "diameter_mm": 910,
+        "operator": "BBL Company V.O.F. (Gasunie, Fluxys, Uniper; Gazprom/Wingas participation agreement)",
+        "status_2022": "Operating bidirectionally in 2022, transporting gas between the UK and the Netherlands.",
+        "source_url": "https://en.wikipedia.org/wiki/BBL_Pipeline"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.81,
+            52.89
+          ],
+          [
+            1.48,
+            52.85
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "storage-rehden",
+      "properties": {
+        "feature_type": "gas_storage",
+        "name": "Rehden Underground Gas Storage",
+        "country": "Germany",
+        "region": "Lower Saxony",
+        "storage_type": "Depleted gas field (porous rock)",
+        "working_gas_capacity_bcm": 4.7,
+        "operator": "Astora GmbH (Gazprom Germania subsidiary; placed under German federal trusteeship in April 2022)",
+        "status_2022": "Critically low inventory (<1% full) in early 2022; refilled after German government took trusteeship control via Bundesnetzagentur.",
+        "source_url": "https://www.argusmedia.com/en/news-and-insights/latest-market-news/2326914-gazprom-s-european-gas-storage-empties-out"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.478,
+          52.61
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "storage-jemgum",
+      "properties": {
+        "feature_type": "gas_storage",
+        "name": "Jemgum Underground Gas Storage",
+        "country": "Germany",
+        "region": "Lower Saxony (East Frisia, near Dutch border)",
+        "storage_type": "Salt cavern",
+        "working_gas_capacity_bcm": 0.9,
+        "operator": "Astora GmbH (Gazprom Germania) & EWE",
+        "status_2022": "Operated under German federal trusteeship from April 2022.",
+        "source_url": "https://www.argusmedia.com/en/news-and-insights/latest-market-news/2326914-gazprom-s-european-gas-storage-empties-out"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.385,
+          53.265
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "storage-etzel",
+      "properties": {
+        "feature_type": "gas_storage",
+        "name": "Etzel (EKB) Underground Gas Storage",
+        "country": "Germany",
+        "region": "Lower Saxony (Friedeburg)",
+        "storage_type": "Salt cavern",
+        "working_gas_capacity_bcm": 1.0,
+        "operator": "Etzel-Kavernenbetriebsgesellschaft (EKB) / Gazprom Export capacity participation",
+        "status_2022": "Active in 2022; Gazprom held contracted working gas capacity.",
+        "source_url": "https://www.spglobal.com/energy/en/news-research/latest-news/natural-gas/111221-russia-says-to-fulfil-contractual-gas-supply-obligations-amid-belarus-threat"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.854,
+          53.468
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "storage-katharina",
+      "properties": {
+        "feature_type": "gas_storage",
+        "name": "Katharina (Peißen / Bernburg) Underground Gas Storage",
+        "country": "Germany",
+        "region": "Saxony-Anhalt (Bernburg)",
+        "storage_type": "Salt cavern",
+        "working_gas_capacity_bcm": 0.6,
+        "operator": "Erdgasspeicher Peissen GmbH (50% Gazprom Export / 50% VNG Gasspeicher)",
+        "status_2022": "Active in 2022 in eastern Germany along the JAGAL/STEGAL corridor.",
+        "source_url": "https://www.osw.waw.pl/en/publikacje/analyses/2021-11-10/russian-gas-eu-market-increased-transmission-and-continuing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.792,
+          51.785
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "storage-haidach",
+      "properties": {
+        "feature_type": "gas_storage",
+        "name": "Haidach Underground Gas Storage",
+        "country": "Austria",
+        "region": "Salzburg / Upper Austria border (Straßwalchen)",
+        "storage_type": "Depleted sandstone gas reservoir",
+        "working_gas_capacity_bcm": 2.9,
+        "operator": "RAG Austria AG / Astora (Wingas) / Gazprom Export",
+        "status_2022": "Gazprom's unutilized storage portion was reallocated by the Austrian government to RAG Austria / AGMo in July 2022 to ensure winter filling.",
+        "source_url": "https://en.wikipedia.org/wiki/Haidach_gas_storage"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.218,
+          47.994
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "storage-bergermeer",
+      "properties": {
+        "feature_type": "gas_storage",
+        "name": "Bergermeer Gas Storage",
+        "country": "Netherlands",
+        "region": "North Holland (Alkmaar)",
+        "storage_type": "Depleted gas field",
+        "working_gas_capacity_bcm": 4.5,
+        "operator": "TAQA (60%) & Gazprom Export (40% capacity rights / cushion gas partner)",
+        "status_2022": "Active in 2022; Dutch government intervened in mid-2022 to fill Gazprom's unused 42% capacity allocation.",
+        "source_url": "https://www.osw.waw.pl/en/publikacje/analyses/2021-11-10/russian-gas-eu-market-increased-transmission-and-continuing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.71,
+          52.65
+        ]
+      }
+    }
+  ]
+}
