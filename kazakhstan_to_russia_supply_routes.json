@@ -1,0 +1,1077 @@
+{
+  "type": "FeatureCollection",
+  "name": "Kazakhstan to Russia Oil and Condensate Supply Routes",
+  "metadata": {
+    "title": "Kazakhstan to Russia Supply Routes (CPC, Atyrau-Samara, KATS, KOTS, and Transneft Connections)",
+    "description": "Geospatial (WGS84) and image-pixel route data for all oil and gas condensate supply lines from Kazakhstan to Russia depicted across the two uploaded reference maps.",
+    "source_images": [
+      {
+        "image_id": "image_1_cpc_pumping_stations",
+        "filename": "image_043569.jpg",
+        "width_px": 1024,
+        "height_px": 533,
+        "depicts": "Caspian Pipeline Consortium (CPC) route from Tengiz PS and Atyrau PS in Kazakhstan through Astrakhanskaya PS, Komsomolskaya PS, and Kropotkinskaya PS to the Marine Terminal on the Black Sea in Russia."
+      },
+      {
+        "image_id": "image_2_kazakhstan_russia_export_network",
+        "filename": "image_043227.jpg",
+        "width_px": 986,
+        "height_px": 581,
+        "depicts": "Six interconnected pipeline corridors linking Kazakhstan's Tengiz and Karachaganak fields to Russian hubs (Orenburg, Samara, Novorossiysk/Sheskharis, Yuzhnaya Ozereyevka, Ust-Luga) and onward to Adamova Zastava."
+      }
+    ],
+    "pipeline_systems": [
+      {
+        "id": "cpc_pipeline",
+        "name": "Caspian Pipeline Consortium (CPC) Pipeline",
+        "length_km": 1510,
+        "max_discharge_bpd": 1400000,
+        "commissioned": 2001,
+        "operators": [
+          "CPC-K (Kazakhstan)",
+          "CPC-R (Russia)"
+        ],
+        "route": "Tengiz PS -> Atyrau PS -> Astrakhanskaya PS -> Komsomolskaya PS -> Kropotkinskaya PS -> Marine Terminal (Yuzhnaya Ozereyevka / Novorossiysk)",
+        "legend_color_image_1": "Dark Blue",
+        "legend_color_image_2": "Green"
+      },
+      {
+        "id": "atyrau_samara_pipeline",
+        "name": "Atyrau-Samara Pipeline",
+        "route": "Atyrau (Kazakhstan) -> Bol. Chagan (Kazakhstan) -> Samara (Russia)",
+        "legend_color_image_2": "Yellow"
+      },
+      {
+        "id": "kats_pipeline",
+        "name": "Karachaganak-Atyrau Transportation System (KATS)",
+        "route": "Karachaganak (Kazakhstan) -> Bol. Chagan (Kazakhstan) -> Atyrau (Kazakhstan, connecting into CPC and Atyrau-Samara)",
+        "legend_color_image_2": "Red"
+      },
+      {
+        "id": "kots_pipeline",
+        "name": "Karachaganak-Orenburg Transportation System (KOTS)",
+        "route": "Karachaganak (Kazakhstan) -> Orenburg Gas Processing Complex (Russia)",
+        "legend_color_image_2": "Orange"
+      },
+      {
+        "id": "transneft_pipeline_system",
+        "name": "Transneft Pipeline System",
+        "route": "Samara (Russia) -> Ust-Luga (Baltic Sea, Russia) and Samara (Russia) -> Novorossiysk / Sheskharis (Black Sea, Russia)",
+        "legend_color_image_2": "Cyan / Light Blue"
+      },
+      {
+        "id": "atyrau_samara_adamova_zastava",
+        "name": "Atyrau-Samara-Adamova Zastava (Druzhba Transit Route)",
+        "route": "Atyrau (Kazakhstan) -> Bol. Chagan (Kazakhstan) -> Samara (Russia) -> Adamova Zastava (Poland/Germany corridor)",
+        "legend_color_image_2": "Black"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Caspian Pipeline Consortium - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Caspian_Pipeline_Consortium"
+      },
+      {
+        "title": "Tengiz Field - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Tengiz_Field"
+      },
+      {
+        "title": "Karachaganak Field - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Karachaganak_Field"
+      },
+      {
+        "title": "Karachaganak Petroleum Operating (KPO) Sustainability Report",
+        "url": "https://www.kpo.kz/fileadmin/user_upload/2024/KPO_2023_ESG_Report_EN.pdf"
+      },
+      {
+        "title": "PETROLEUM Analytical Journal - CPC Pumping Stations",
+        "url": "https://www.petroleumjournal.kz/index.php?p=article&aid1=114&aid2=609&id=1408&outlang=3"
+      }
+    ]
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": "node-tengiz",
+      "properties": {
+        "name": "Tengiz Field / Tengiz PS",
+        "country": "Kazakhstan",
+        "role": "Origin Oil Field & Head Pumping Station (CPC Pipeline)",
+        "labels_on_maps": [
+          "Tengiz PS (Image 1)",
+          "Tengiz (Image 2)"
+        ],
+        "image_1_pixel_xy": [
+          940,
+          231
+        ],
+        "image_2_pixel_xy": [
+          657,
+          469
+        ],
+        "source_url": "https://en.wikipedia.org/wiki/Tengiz_Field"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.3833,
+          46.1528
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node-atyrau",
+      "properties": {
+        "name": "Atyrau / Atyrau PS",
+        "country": "Kazakhstan",
+        "role": "Pumping Station & Major Pipeline Junction (CPC, Atyrau-Samara, KATS)",
+        "labels_on_maps": [
+          "Atyrau PS (Image 1)",
+          "Atyrau (Image 2)"
+        ],
+        "image_1_pixel_xy": [
+          832,
+          142
+        ],
+        "image_2_pixel_xy": [
+          627,
+          452
+        ],
+        "source_url": "https://en.wikipedia.org/wiki/Atyrau"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.8833,
+          47.1167
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node-karachaganak",
+      "properties": {
+        "name": "Karachaganak Oil & Gas Condensate Field",
+        "country": "Kazakhstan",
+        "role": "Origin Oil & Gas Condensate Field (KATS and KOTS Pipelines)",
+        "labels_on_maps": [
+          "Karachaganak (Image 2)"
+        ],
+        "image_1_pixel_xy": null,
+        "image_2_pixel_xy": [
+          659,
+          329
+        ],
+        "source_url": "https://en.wikipedia.org/wiki/Karachaganak_Field"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.2111,
+          51.3535
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node-bolshoy-chagan",
+      "properties": {
+        "name": "Bol. Chagan (Bolshoy Chagan / Oral Region Junction)",
+        "country": "Kazakhstan",
+        "role": "Pipeline Junction (KATS & Atyrau-Samara Pipeline near Oral)",
+        "labels_on_maps": [
+          "Bol. Chagan (Image 2)"
+        ],
+        "image_1_pixel_xy": null,
+        "image_2_pixel_xy": [
+          618,
+          332
+        ],
+        "source_url": "https://en.wikipedia.org/wiki/M%C3%A4n%C5%9F%C3%BCk_M%C3%A4metova_Oral_International_Airport"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.5431,
+          51.1508
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node-orenburg",
+      "properties": {
+        "name": "Orenburg",
+        "country": "Russia",
+        "role": "Receiving Gas & Condensate Processing Hub (KOTS Pipeline)",
+        "labels_on_maps": [
+          "Orenburg (Image 2)"
+        ],
+        "image_1_pixel_xy": null,
+        "image_2_pixel_xy": [
+          721,
+          332
+        ],
+        "source_url": "https://en.wikipedia.org/wiki/Orenburg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          55.1,
+          51.7833
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node-samara",
+      "properties": {
+        "name": "Samara",
+        "country": "Russia",
+        "role": "Major Russian Pipeline Hub (Junction of Atyrau-Samara, Transneft, and Druzhba systems)",
+        "labels_on_maps": [
+          "Samara (Image 2)"
+        ],
+        "image_1_pixel_xy": null,
+        "image_2_pixel_xy": [
+          591,
+          267
+        ],
+        "source_url": "https://en.wikipedia.org/wiki/Samara"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          50.1408,
+          53.2028
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node-astrakhanskaya-ps",
+      "properties": {
+        "name": "Astrakhanskaya PS (Astrakhan Region)",
+        "country": "Russia",
+        "role": "CPC Pumping Station (Astrakhan Oblast)",
+        "labels_on_maps": [
+          "Astrakhanskaya PS (Image 1)"
+        ],
+        "image_1_pixel_xy": [
+          630,
+          177
+        ],
+        "image_2_pixel_xy": [
+          555,
+          439
+        ],
+        "source_url": "https://en.wikipedia.org/wiki/Astrakhan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          48.035,
+          46.35
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node-komsomolskaya-ps",
+      "properties": {
+        "name": "Komsomolskaya PS (Komsomolsky, Kalmykia)",
+        "country": "Russia",
+        "role": "CPC Pumping Station (Chernozemelsky District, Republic of Kalmykia)",
+        "labels_on_maps": [
+          "Komsomolskaya PS (Image 1)"
+        ],
+        "image_1_pixel_xy": [
+          572,
+          325
+        ],
+        "image_2_pixel_xy": [
+          518,
+          437
+        ],
+        "source_url": "https://en.wikipedia.org/wiki/Chernozemelsky_District"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.0333,
+          45.3333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node-kropotkinskaya-ps",
+      "properties": {
+        "name": "Kropotkinskaya PS (Kropotkin, Krasnodar Krai)",
+        "country": "Russia",
+        "role": "CPC Pumping Station (Krasnodar Krai)",
+        "labels_on_maps": [
+          "Kropotkinskaya PS (Image 1)"
+        ],
+        "image_1_pixel_xy": [
+          283,
+          301
+        ],
+        "image_2_pixel_xy": [
+          425,
+          495
+        ],
+        "source_url": "https://en.wikipedia.org/wiki/Kropotkin,_Krasnodar_Krai"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.5667,
+          45.4333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node-yuzhnaya-ozereyevka",
+      "properties": {
+        "name": "Marine Terminal / Yuzhnaya Ozereyevka (near Novorossiysk)",
+        "country": "Russia",
+        "role": "CPC Black Sea Marine Export Terminal",
+        "labels_on_maps": [
+          "Marine Terminal (Image 1)",
+          "Yuzhnaya Ozereyevka (Image 2)"
+        ],
+        "image_1_pixel_xy": [
+          114,
+          332
+        ],
+        "image_2_pixel_xy": [
+          346,
+          507
+        ],
+        "source_url": "https://en.wikipedia.org/wiki/Caspian_Pipeline_Consortium"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.6333,
+          44.6667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node-novorossiysk-sheskharis",
+      "properties": {
+        "name": "Novorossiysk / Sheskharis Oil Terminal",
+        "country": "Russia",
+        "role": "Transneft Black Sea Export Terminal",
+        "labels_on_maps": [
+          "Novorossiysk / Sheskharis (Image 2)"
+        ],
+        "image_1_pixel_xy": null,
+        "image_2_pixel_xy": [
+          362,
+          520
+        ],
+        "source_url": "https://en.wikipedia.org/wiki/Port_of_Novorossiysk"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.7833,
+          44.7167
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node-ust-luga",
+      "properties": {
+        "name": "Ust-Luga Port Terminal",
+        "country": "Russia",
+        "role": "Transneft Baltic Sea Export Terminal (Leningrad Oblast)",
+        "labels_on_maps": [
+          "Ust Luga (Image 2)"
+        ],
+        "image_1_pixel_xy": null,
+        "image_2_pixel_xy": [
+          184,
+          50
+        ],
+        "source_url": "https://en.wikipedia.org/wiki/Ust-Luga"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.2769,
+          59.6603
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node-adamova-zastava",
+      "properties": {
+        "name": "Adamova Zastava (Adamowo-Zastawa)",
+        "country": "Poland",
+        "role": "Western Druzhba Transit Delivery Point (fed via Atyrau-Samara-Adamova Zastava route)",
+        "labels_on_maps": [
+          "Adamova Zastava (Image 2)"
+        ],
+        "image_1_pixel_xy": null,
+        "image_2_pixel_xy": [
+          84,
+          294
+        ],
+        "source_url": "https://en.wikipedia.org/wiki/Adamowo-Zastawa"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.1167,
+          52.3667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "route-cpc-pipeline",
+      "properties": {
+        "name": "CPC Pipeline (Tengiz & Atyrau to Black Sea Marine Terminal)",
+        "countries": [
+          "Kazakhstan",
+          "Russia"
+        ],
+        "length_km": 1510,
+        "stations_ordered": [
+          "Tengiz PS (Kazakhstan)",
+          "Atyrau PS (Kazakhstan)",
+          "Astrakhanskaya PS (Russia)",
+          "Komsomolskaya PS (Russia)",
+          "Kropotkinskaya PS (Russia)",
+          "Marine Terminal / Yuzhnaya Ozereyevka (Russia)"
+        ],
+        "image_1_pixel_polyline": [
+          [
+            940,
+            231
+          ],
+          [
+            931,
+            198
+          ],
+          [
+            905,
+            159
+          ],
+          [
+            880,
+            155
+          ],
+          [
+            854,
+            148
+          ],
+          [
+            829,
+            142
+          ],
+          [
+            805,
+            142
+          ],
+          [
+            779,
+            149
+          ],
+          [
+            755,
+            167
+          ],
+          [
+            730,
+            184
+          ],
+          [
+            705,
+            188
+          ],
+          [
+            680,
+            178
+          ],
+          [
+            655,
+            167
+          ],
+          [
+            627,
+            185
+          ],
+          [
+            607,
+            235
+          ],
+          [
+            581,
+            296
+          ],
+          [
+            555,
+            322
+          ],
+          [
+            530,
+            315
+          ],
+          [
+            505,
+            310
+          ],
+          [
+            480,
+            305
+          ],
+          [
+            455,
+            303
+          ],
+          [
+            430,
+            301
+          ],
+          [
+            405,
+            300
+          ],
+          [
+            380,
+            300
+          ],
+          [
+            355,
+            300
+          ],
+          [
+            330,
+            300
+          ],
+          [
+            304,
+            301
+          ],
+          [
+            279,
+            301
+          ],
+          [
+            255,
+            302
+          ],
+          [
+            230,
+            303
+          ],
+          [
+            205,
+            305
+          ],
+          [
+            180,
+            306
+          ],
+          [
+            155,
+            306
+          ],
+          [
+            129,
+            319
+          ],
+          [
+            114,
+            332
+          ]
+        ],
+        "image_2_pixel_polyline": [
+          [
+            657,
+            469
+          ],
+          [
+            655,
+            456
+          ],
+          [
+            627,
+            452
+          ],
+          [
+            603,
+            444
+          ],
+          [
+            580,
+            453
+          ],
+          [
+            518,
+            437
+          ],
+          [
+            485,
+            460
+          ],
+          [
+            460,
+            497
+          ],
+          [
+            425,
+            495
+          ],
+          [
+            380,
+            493
+          ],
+          [
+            346,
+            507
+          ]
+        ],
+        "source_url": "https://en.wikipedia.org/wiki/Caspian_Pipeline_Consortium"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            53.3833,
+            46.1528
+          ],
+          [
+            51.8833,
+            47.1167
+          ],
+          [
+            48.035,
+            46.35
+          ],
+          [
+            46.0333,
+            45.3333
+          ],
+          [
+            40.5667,
+            45.4333
+          ],
+          [
+            37.6333,
+            44.6667
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "route-atyrau-samara-pipeline",
+      "properties": {
+        "name": "Atyrau-Samara Pipeline",
+        "countries": [
+          "Kazakhstan",
+          "Russia"
+        ],
+        "from_node": "Atyrau (Kazakhstan)",
+        "via_node": "Bol. Chagan (Kazakhstan)",
+        "to_node": "Samara (Russia)",
+        "image_2_pixel_polyline": [
+          [
+            627,
+            452
+          ],
+          [
+            622,
+            435
+          ],
+          [
+            628,
+            412
+          ],
+          [
+            614,
+            355
+          ],
+          [
+            618,
+            332
+          ],
+          [
+            601,
+            280
+          ],
+          [
+            591,
+            267
+          ]
+        ],
+        "source_url": "https://en.wikipedia.org/wiki/Atyrau"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            51.8833,
+            47.1167
+          ],
+          [
+            51.5431,
+            51.1508
+          ],
+          [
+            50.1408,
+            53.2028
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "route-karachaganak-atyrau-kats",
+      "properties": {
+        "name": "Karachaganak-Atyrau Transportation System (KATS)",
+        "countries": [
+          "Kazakhstan"
+        ],
+        "from_node": "Karachaganak (Kazakhstan)",
+        "via_node": "Bol. Chagan (Kazakhstan)",
+        "to_node": "Atyrau (Kazakhstan, connecting into CPC & Atyrau-Samara to Russia)",
+        "image_2_pixel_polyline": [
+          [
+            659,
+            329
+          ],
+          [
+            618,
+            332
+          ],
+          [
+            616,
+            355
+          ],
+          [
+            630,
+            412
+          ],
+          [
+            625,
+            435
+          ],
+          [
+            627,
+            452
+          ]
+        ],
+        "source_url": "https://www.kpo.kz/docs/sustainability_report_2024/download/ESG-2024_kpo-our-esg-en_en.pdf"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            53.2111,
+            51.3535
+          ],
+          [
+            51.5431,
+            51.1508
+          ],
+          [
+            51.8833,
+            47.1167
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "route-karachaganak-orenburg-kots",
+      "properties": {
+        "name": "Karachaganak-Orenburg Transportation System (KOTS)",
+        "countries": [
+          "Kazakhstan",
+          "Russia"
+        ],
+        "from_node": "Karachaganak (Kazakhstan)",
+        "to_node": "Orenburg (Russia)",
+        "image_2_pixel_polyline": [
+          [
+            659,
+            329
+          ],
+          [
+            721,
+            332
+          ]
+        ],
+        "source_url": "https://www.kpo.kz/docs/sustainability_report_2024/download/ESG-2024_kpo-our-esg-en_en.pdf"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            53.2111,
+            51.3535
+          ],
+          [
+            55.1,
+            51.7833
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "route-transneft-samara-to-ust-luga",
+      "properties": {
+        "name": "Transneft Pipeline System (Northern Branch: Samara to Ust-Luga)",
+        "countries": [
+          "Russia"
+        ],
+        "from_node": "Samara (Russia)",
+        "to_node": "Ust-Luga (Russia)",
+        "image_2_pixel_polyline": [
+          [
+            591,
+            267
+          ],
+          [
+            596,
+            232
+          ],
+          [
+            607,
+            202
+          ],
+          [
+            579,
+            185
+          ],
+          [
+            453,
+            159
+          ],
+          [
+            421,
+            146
+          ],
+          [
+            391,
+            118
+          ],
+          [
+            360,
+            106
+          ],
+          [
+            324,
+            112
+          ],
+          [
+            232,
+            107
+          ],
+          [
+            192,
+            92
+          ],
+          [
+            196,
+            75
+          ],
+          [
+            192,
+            57
+          ],
+          [
+            184,
+            50
+          ]
+        ],
+        "source_url": "https://en.wikipedia.org/wiki/Ust-Luga"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            50.1408,
+            53.2028
+          ],
+          [
+            28.2769,
+            59.6603
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "route-transneft-samara-to-novorossiysk",
+      "properties": {
+        "name": "Transneft Pipeline System (Southern Branch: Samara to Novorossiysk / Sheskharis)",
+        "countries": [
+          "Russia"
+        ],
+        "from_node": "Samara (Russia)",
+        "to_node": "Novorossiysk / Sheskharis (Russia)",
+        "image_2_pixel_polyline": [
+          [
+            591,
+            267
+          ],
+          [
+            574,
+            286
+          ],
+          [
+            565,
+            280
+          ],
+          [
+            524,
+            326
+          ],
+          [
+            515,
+            349
+          ],
+          [
+            466,
+            344
+          ],
+          [
+            405,
+            389
+          ],
+          [
+            408,
+            469
+          ],
+          [
+            362,
+            520
+          ]
+        ],
+        "source_url": "https://en.wikipedia.org/wiki/Port_of_Novorossiysk"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            50.1408,
+            53.2028
+          ],
+          [
+            40.5667,
+            45.4333
+          ],
+          [
+            37.7833,
+            44.7167
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "route-atyrau-samara-adamova-zastava",
+      "properties": {
+        "name": "Atyrau-Samara-Adamova Zastava Route",
+        "countries": [
+          "Kazakhstan",
+          "Russia",
+          "Belarus",
+          "Poland"
+        ],
+        "from_node": "Atyrau (Kazakhstan)",
+        "via_nodes": [
+          "Bol. Chagan (Kazakhstan)",
+          "Samara (Russia)"
+        ],
+        "to_node": "Adamova Zastava (Poland)",
+        "image_2_pixel_polyline": [
+          [
+            627,
+            452
+          ],
+          [
+            620,
+            435
+          ],
+          [
+            625,
+            412
+          ],
+          [
+            611,
+            355
+          ],
+          [
+            618,
+            332
+          ],
+          [
+            599,
+            280
+          ],
+          [
+            591,
+            267
+          ],
+          [
+            464,
+            263
+          ],
+          [
+            393,
+            285
+          ],
+          [
+            268,
+            275
+          ],
+          [
+            209,
+            303
+          ],
+          [
+            84,
+            294
+          ]
+        ],
+        "source_url": "https://www.kpo.kz/fileadmin/user_upload/2024/KPO_2023_ESG_Report_EN.pdf"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            51.8833,
+            47.1167
+          ],
+          [
+            51.5431,
+            51.1508
+          ],
+          [
+            50.1408,
+            53.2028
+          ],
+          [
+            23.1167,
+            52.3667
+          ]
+        ]
+      }
+    }
+  ]
+}
