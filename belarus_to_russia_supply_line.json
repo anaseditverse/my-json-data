@@ -1,0 +1,800 @@
+{
+  "type": "FeatureCollection",
+  "name": "Belarus to Russia Supply Line (Yamal-Europe Natural Gas Pipeline)",
+  "metadata": {
+    "title": "Yamal-Europe Pipeline Route (Belarus to Russia Supply Line)",
+    "description": "Geospatial (WGS84) and image-pixel route data for the Belarus-to-Russia natural gas supply line (Yamal-Europe pipeline) and its branches as depicted in the reference map.",
+    "pipeline_specifications": {
+      "total_length_km": 4107,
+      "belarus_section_length_km": 575,
+      "western_russia_torzhok_section_length_km": 402,
+      "ukhta_torzhok_section_length_km": 970,
+      "bovanenkovo_ukhta_section_length_km": 1200,
+      "srto_torzhok_branch_length_km": 2200,
+      "poland_section_length_km": 683,
+      "diameter_mm": 1420,
+      "annual_capacity_bcm": 33,
+      "compressor_stations_total": 14,
+      "belarus_compressor_stations": [
+        "Nesvizhskaya",
+        "Krupskaya",
+        "Slonimskaya",
+        "Minskaya",
+        "Orshanskaya"
+      ],
+      "operators": [
+        "Gazprom (Russia)",
+        "Gazprom Transgaz Belarus (Belarus)",
+        "EuRoPol Gaz S.A. (Poland)"
+      ]
+    },
+    "source_image": {
+      "filename": "image_043de7.jpg",
+      "width_px": 1024,
+      "height_px": 797,
+      "coordinate_system": "Top-left origin [x_px, y_px]"
+    },
+    "sources": [
+      {
+        "title": "Yamal-Europe pipeline - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Yamal%E2%80%93Europe_pipeline"
+      },
+      {
+        "title": "7.2 Transport and Trade - Dr. Zubairul Islam",
+        "url": "https://zubairulislam.com/transport-and-trade/"
+      }
+    ]
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": "node-slonim",
+      "properties": {
+        "name": "Slonim (Slonimskaya Compressor Station)",
+        "country": "Belarus",
+        "role": "Compressor Station (Belarus Section)",
+        "label_on_map": "Belarus (Yamal-Europe)",
+        "image_pixel_xy": [
+          328,
+          632
+        ],
+        "source_url": "https://en.wikipedia.org/wiki/Slonim"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.3167,
+          53.0833
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node-nesvizh",
+      "properties": {
+        "name": "Nesvizh / Nyasvizh (Nesvizhskaya Compressor Station)",
+        "country": "Belarus",
+        "role": "Compressor Station & Branch Junction (Belarus Section)",
+        "label_on_map": "Belarus Junction (Yamal-Europe / Yamal-II)",
+        "image_pixel_xy": [
+          354,
+          630
+        ],
+        "source_url": "https://en.wikipedia.org/wiki/Nyasvizh"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.6667,
+          53.2167
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node-minsk",
+      "properties": {
+        "name": "Minsk (Minskaya Compressor Station)",
+        "country": "Belarus",
+        "role": "Compressor Station & Transit Hub (Belarus Section)",
+        "label_on_map": "Belarus",
+        "image_pixel_xy": [
+          375,
+          595
+        ],
+        "source_url": "https://en.wikipedia.org/wiki/Belarus"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.55,
+          53.9167
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node-krupki",
+      "properties": {
+        "name": "Krupki (Krupskaya Compressor Station)",
+        "country": "Belarus",
+        "role": "Compressor Station (Belarus Section)",
+        "label_on_map": "Belarus",
+        "image_pixel_xy": [
+          402,
+          578
+        ],
+        "source_url": "https://en.wikipedia.org/wiki/Krupki"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.1333,
+          54.3167
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node-orsha",
+      "properties": {
+        "name": "Orsha (Orshanskaya Compressor Station)",
+        "country": "Belarus",
+        "role": "Eastern Belarus Border Compressor Station",
+        "label_on_map": "Belarus-Russia Border",
+        "image_pixel_xy": [
+          435,
+          576
+        ],
+        "source_url": "https://en.wikipedia.org/wiki/Orsha"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.4258,
+          54.5092
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node-smolensk",
+      "properties": {
+        "name": "Smolensk",
+        "country": "Russia",
+        "role": "Western Russian Transit Node",
+        "label_on_map": "Yamal-Europe (West of Moscow)",
+        "image_pixel_xy": [
+          475,
+          555
+        ],
+        "source_url": "https://en.wikipedia.org/wiki/Smolensk"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.0453,
+          54.7828
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node-torzhok",
+      "properties": {
+        "name": "Torzhok Gas Transmission Hub",
+        "country": "Russia",
+        "role": "Major Gas Transmission Hub (Junction of Western Section, Ukhta-Torzhok, and SRTO-Torzhok)",
+        "label_on_map": "Northwest of Moscow",
+        "image_pixel_xy": [
+          506,
+          496
+        ],
+        "source_url": "https://en.wikipedia.org/wiki/Torzhok"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.9667,
+          57.0333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node-gryazovets",
+      "properties": {
+        "name": "Gryazovets",
+        "country": "Russia",
+        "role": "Compressor Node on Ukhta-Torzhok Section",
+        "label_on_map": "Yamal-Europe (Central Russia)",
+        "image_pixel_xy": [
+          602,
+          434
+        ],
+        "source_url": "https://en.wikipedia.org/wiki/Gryazovets"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.25,
+          58.8833
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node-ukhta",
+      "properties": {
+        "name": "Ukhta",
+        "country": "Russia",
+        "role": "Major Northern Russian Gas Hub (Junction of Bovanenkovo-Ukhta and Punga/SRTO lines)",
+        "label_on_map": "Ukhta",
+        "image_pixel_xy": [
+          760,
+          249
+        ],
+        "source_url": "https://en.wikipedia.org/wiki/Ukhta"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.7,
+          63.5667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node-vuktyl",
+      "properties": {
+        "name": "Vuktyl",
+        "country": "Russia",
+        "role": "Transit Node between Ukhta and Punga (Komi Republic)",
+        "label_on_map": "Between Ukhta and Punga",
+        "image_pixel_xy": [
+          815,
+          265
+        ],
+        "source_url": "https://en.wikipedia.org/wiki/Vuktyl"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          57.3167,
+          63.7
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node-punga",
+      "properties": {
+        "name": "Punga (Igrim / Svetly Gas Hub)",
+        "country": "Russia",
+        "role": "Eastern Branch Gas Hub (SRTO-Torzhok / Nadym-Punga-Ukhta Line)",
+        "label_on_map": "Punga",
+        "image_pixel_xy": [
+          899,
+          293
+        ],
+        "source_url": "https://en.wikipedia.org/wiki/Igrim"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          64.4117,
+          63.1875
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node-nadym",
+      "properties": {
+        "name": "Nadym",
+        "country": "Russia",
+        "role": "Northern Gas Supply Terminal (Nadym-Pur-Taz District)",
+        "label_on_map": "Nadym",
+        "image_pixel_xy": [
+          971,
+          89
+        ],
+        "source_url": "https://en.wikipedia.org/wiki/Nadym"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.5167,
+          65.5333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node-yamal-fields",
+      "properties": {
+        "name": "Yamal Fields (Bovanenkovo Gas Field)",
+        "country": "Russia",
+        "role": "Primary Arctic Natural Gas Supply Source (Yamal Peninsula)",
+        "label_on_map": "To Yamal fields",
+        "image_pixel_xy": [
+          845,
+          42
+        ],
+        "source_url": "https://en.wikipedia.org/wiki/Bovanenkovo_gas_field"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          68.4,
+          70.2
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "segment-belarus-section",
+      "properties": {
+        "name": "Belarus Section (Yamal-Europe Trunk)",
+        "countries": [
+          "Belarus"
+        ],
+        "from_node": "Poland-Belarus Border (near Slonim)",
+        "to_node": "Belarus-Russia Border (Orsha)",
+        "length_km": 575,
+        "compressor_stations": [
+          "Slonimskaya",
+          "Nesvizhskaya",
+          "Minskaya",
+          "Krupskaya",
+          "Orshanskaya"
+        ],
+        "operator": "Gazprom Transgaz Belarus",
+        "image_pixel_polyline": [
+          [
+            309,
+            630
+          ],
+          [
+            319,
+            628
+          ],
+          [
+            329,
+            623
+          ],
+          [
+            338,
+            618
+          ],
+          [
+            350,
+            617
+          ],
+          [
+            358,
+            608
+          ],
+          [
+            368,
+            596
+          ],
+          [
+            380,
+            589
+          ],
+          [
+            389,
+            582
+          ],
+          [
+            399,
+            576
+          ],
+          [
+            408,
+            579
+          ],
+          [
+            420,
+            583
+          ],
+          [
+            429,
+            579
+          ],
+          [
+            439,
+            576
+          ]
+        ],
+        "source_url": "https://zubairulislam.com/transport-and-trade/"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            25.3167,
+            53.0833
+          ],
+          [
+            26.6667,
+            53.2167
+          ],
+          [
+            27.55,
+            53.9167
+          ],
+          [
+            29.1333,
+            54.3167
+          ],
+          [
+            30.4258,
+            54.5092
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "segment-russia-main-trunk",
+      "properties": {
+        "name": "Russia Main Trunk (Orsha/Smolensk to Torzhok and Ukhta)",
+        "countries": [
+          "Russia"
+        ],
+        "from_node": "Belarus-Russia Border (Smolensk)",
+        "to_node": "Ukhta",
+        "length_km": 1372,
+        "sub_sections": {
+          "western_russia_to_torzhok_km": 402,
+          "ukhta_to_torzhok_km": 970
+        },
+        "operator": "Gazprom",
+        "image_pixel_polyline": [
+          [
+            451,
+            573
+          ],
+          [
+            462,
+            565
+          ],
+          [
+            475,
+            556
+          ],
+          [
+            486,
+            544
+          ],
+          [
+            498,
+            519
+          ],
+          [
+            510,
+            499
+          ],
+          [
+            522,
+            492
+          ],
+          [
+            533,
+            487
+          ],
+          [
+            546,
+            480
+          ],
+          [
+            558,
+            472
+          ],
+          [
+            570,
+            461
+          ],
+          [
+            582,
+            451
+          ],
+          [
+            594,
+            442
+          ],
+          [
+            605,
+            423
+          ],
+          [
+            618,
+            401
+          ],
+          [
+            630,
+            388
+          ],
+          [
+            642,
+            378
+          ],
+          [
+            654,
+            368
+          ],
+          [
+            667,
+            345
+          ],
+          [
+            678,
+            331
+          ],
+          [
+            691,
+            316
+          ],
+          [
+            702,
+            301
+          ],
+          [
+            714,
+            283
+          ],
+          [
+            726,
+            270
+          ],
+          [
+            738,
+            269
+          ],
+          [
+            750,
+            256
+          ],
+          [
+            761,
+            248
+          ]
+        ],
+        "source_url": "https://en.wikipedia.org/wiki/Yamal%E2%80%93Europe_pipeline"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            30.4258,
+            54.5092
+          ],
+          [
+            32.0453,
+            54.7828
+          ],
+          [
+            34.9667,
+            57.0333
+          ],
+          [
+            40.25,
+            58.8833
+          ],
+          [
+            53.7,
+            63.5667
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "segment-russia-bovanenkovo-ukhta",
+      "properties": {
+        "name": "Northern Yamal Branch (Ukhta to Yamal Fields / Bovanenkovo)",
+        "countries": [
+          "Russia"
+        ],
+        "from_node": "Ukhta",
+        "to_node": "Yamal Fields (Bovanenkovo Gas Field)",
+        "length_km": 1200,
+        "notes": "Includes 72 km undersea pipeline crossing under Baydaratskaya Bay.",
+        "operator": "Gazprom",
+        "image_pixel_polyline": [
+          [
+            764,
+            214
+          ],
+          [
+            771,
+            196
+          ],
+          [
+            780,
+            186
+          ],
+          [
+            788,
+            173
+          ],
+          [
+            796,
+            160
+          ],
+          [
+            804,
+            152
+          ],
+          [
+            813,
+            140
+          ],
+          [
+            819,
+            122
+          ],
+          [
+            828,
+            111
+          ],
+          [
+            836,
+            88
+          ],
+          [
+            842,
+            53
+          ]
+        ],
+        "source_url": "https://en.wikipedia.org/wiki/Yamal%E2%80%93Europe_pipeline"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            53.7,
+            63.5667
+          ],
+          [
+            68.4,
+            70.2
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "segment-russia-ukhta-punga-nadym",
+      "properties": {
+        "name": "Eastern Nadym-Punga-Ukhta Branch (SRTO-Torzhok Feeder)",
+        "countries": [
+          "Russia"
+        ],
+        "from_node": "Ukhta",
+        "to_node": "Nadym (via Vuktyl and Punga/Igrim)",
+        "length_km": 2200,
+        "operator": "Gazprom",
+        "image_pixel_polyline": [
+          [
+            767,
+            253
+          ],
+          [
+            775,
+            256
+          ],
+          [
+            786,
+            258
+          ],
+          [
+            795,
+            259
+          ],
+          [
+            805,
+            262
+          ],
+          [
+            815,
+            266
+          ],
+          [
+            825,
+            272
+          ],
+          [
+            835,
+            279
+          ],
+          [
+            845,
+            285
+          ],
+          [
+            855,
+            291
+          ],
+          [
+            864,
+            295
+          ],
+          [
+            875,
+            296
+          ],
+          [
+            886,
+            295
+          ],
+          [
+            892,
+            294
+          ],
+          [
+            905,
+            288
+          ],
+          [
+            911,
+            280
+          ],
+          [
+            919,
+            270
+          ],
+          [
+            927,
+            254
+          ],
+          [
+            936,
+            222
+          ],
+          [
+            942,
+            181
+          ],
+          [
+            951,
+            158
+          ],
+          [
+            959,
+            150
+          ],
+          [
+            967,
+            127
+          ]
+        ],
+        "source_url": "https://en.wikipedia.org/wiki/Yamal%E2%80%93Europe_pipeline"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            53.7,
+            63.5667
+          ],
+          [
+            57.3167,
+            63.7
+          ],
+          [
+            64.4117,
+            63.1875
+          ],
+          [
+            72.5167,
+            65.5333
+          ]
+        ]
+      }
+    }
+  ]
+}
