@@ -1,0 +1,869 @@
+{
+  "type": "FeatureCollection",
+  "name": "R-280 Novorossiya Highway Corridor",
+  "metadata": {
+    "title": "R-280 'Novorossiya' Highway Corridor (Reference Map Route, Buffer Zone & Full Rostov–Crimea Network)",
+    "description": "Geospatial (WGS84) GeoJSON dataset of the R-280 ('Novorossiya') / E58 road corridor traced from the ACLED reference map (Novoazovsk border through Mariupol, Berdiansk, Melitopol, Henichesk, Chonhar, Dzhankoy, Simferopol, and Feodosia to Kerch), plus the Rostov-on-Don–Taganrog mainland section, the 20 km corridor buffer polygon, and 12 key cities and bridge crossings.",
+    "source_image": {
+      "filename": "image_22f562.jpg",
+      "width_px": 1024,
+      "height_px": 819,
+      "depicts": "ACLED map: Ukrainian strikes on the R-280 road corridor (January – June 2026)"
+    },
+    "sources": [
+      {
+        "title": "Ukraine's drone campaign is dismantling Russia's military supply network in the occupied south - ACLED",
+        "url": "https://acleddata.com/report/ukraines-drone-campaign-dismantling-russias-military-supply-network-occupied-south"
+      },
+      {
+        "title": "Middle strike campaign - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Middle_strike_campaign"
+      },
+      {
+        "title": "Ukraine Strikes at Least Six Bridges Along Russia's Key Logistics Route - Militarnyi",
+        "url": "https://militarnyi.com/en/news/ukraine-strikes-at-least-six-bridges-along-russia-s-key-logistics-route-since-early-october/"
+      }
+    ]
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": "route-r280-reference-corridor",
+      "properties": {
+        "name": "R-280 'Novorossiya' / E58 Road Corridor (Reference Map Route: Novoazovsk Border – Mariupol – Berdiansk – Melitopol – Chonhar – Dzhankoy – Simferopol – Feodosia – Kerch)",
+        "feature_type": "highway_corridor_linestring",
+        "highway_designations": "R-280 'Novorossiya' / M-14 (E58) + M-18 (E105) + A-291 (Tavrida)",
+        "depicted_in_reference_image": true,
+        "stroke": "#1B4F72",
+        "stroke-width": 4,
+        "source_url": "https://acleddata.com/report/ukraines-drone-campaign-dismantling-russias-military-supply-network-occupied-south"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            38.2326,
+            47.15732
+          ],
+          [
+            38.07396,
+            47.12411
+          ],
+          [
+            37.92912,
+            47.10038
+          ],
+          [
+            37.74289,
+            47.11462
+          ],
+          [
+            37.55666,
+            47.10512
+          ],
+          [
+            37.40492,
+            47.08613
+          ],
+          [
+            37.28076,
+            47.07189
+          ],
+          [
+            37.14282,
+            47.04813
+          ],
+          [
+            37.03246,
+            47.00059
+          ],
+          [
+            36.9221,
+            46.93872
+          ],
+          [
+            36.82554,
+            46.86725
+          ],
+          [
+            36.78415,
+            46.7909
+          ],
+          [
+            36.63931,
+            46.78613
+          ],
+          [
+            36.49446,
+            46.74791
+          ],
+          [
+            36.34272,
+            46.73357
+          ],
+          [
+            36.15649,
+            46.72401
+          ],
+          [
+            35.94267,
+            46.71923
+          ],
+          [
+            35.74265,
+            46.70967
+          ],
+          [
+            35.5978,
+            46.72879
+          ],
+          [
+            35.46675,
+            46.80045
+          ],
+          [
+            35.37019,
+            46.8434
+          ],
+          [
+            35.25983,
+            46.78613
+          ],
+          [
+            35.12188,
+            46.67618
+          ],
+          [
+            34.96324,
+            46.50844
+          ],
+          [
+            34.8184,
+            46.35463
+          ],
+          [
+            34.70804,
+            46.22451
+          ],
+          [
+            34.62527,
+            46.16658
+          ],
+          [
+            34.58389,
+            46.0699
+          ],
+          [
+            34.5494,
+            45.96819
+          ],
+          [
+            34.56319,
+            45.88573
+          ],
+          [
+            34.49422,
+            45.78855
+          ],
+          [
+            34.40455,
+            45.70581
+          ],
+          [
+            34.37007,
+            45.5644
+          ],
+          [
+            34.30109,
+            45.47155
+          ],
+          [
+            34.22522,
+            45.33935
+          ],
+          [
+            34.14935,
+            45.23631
+          ],
+          [
+            34.07348,
+            45.10848
+          ],
+          [
+            34.05968,
+            45.00995
+          ],
+          [
+            34.10107,
+            44.95569
+          ],
+          [
+            34.24591,
+            45.00502
+          ],
+          [
+            34.37007,
+            45.03952
+          ],
+          [
+            34.58389,
+            45.04445
+          ],
+          [
+            34.71494,
+            45.08386
+          ],
+          [
+            34.84599,
+            45.06908
+          ],
+          [
+            34.99083,
+            45.07401
+          ],
+          [
+            35.12878,
+            45.07401
+          ],
+          [
+            35.28052,
+            45.08386
+          ],
+          [
+            35.37708,
+            45.10355
+          ],
+          [
+            35.50124,
+            45.12816
+          ],
+          [
+            35.62539,
+            45.17243
+          ],
+          [
+            35.76334,
+            45.21666
+          ],
+          [
+            35.90129,
+            45.24613
+          ],
+          [
+            36.06682,
+            45.27067
+          ],
+          [
+            36.23236,
+            45.28049
+          ],
+          [
+            36.37031,
+            45.30992
+          ],
+          [
+            36.48067,
+            45.29521
+          ],
+          [
+            36.54964,
+            45.25595
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "route-r280-henichesk-spur",
+      "properties": {
+        "name": "Henichesk – Arabat Spit Bridge Spur (Novooleksiivka Junction to Henichesk Crossing)",
+        "feature_type": "highway_spur_linestring",
+        "depicted_in_reference_image": true,
+        "stroke": "#1B4F72",
+        "stroke-width": 3,
+        "source_url": "https://acleddata.com/report/ukraines-drone-campaign-dismantling-russias-military-supply-network-occupied-south"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            34.70804,
+            46.22451
+          ],
+          [
+            34.8046,
+            46.14726
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "route-r280-rostov-taganrog-extension",
+      "properties": {
+        "name": "R-280 'Novorossiya' Eastern Mainland Section (Rostov-on-Don – Taganrog – Veselo-Voznesenka / Novoazovsk Border)",
+        "feature_type": "highway_extension_linestring",
+        "highway_designations": "R-280 Federal Highway (Russia Mainland Section)",
+        "depicted_in_reference_image": false,
+        "stroke": "#2E86C1",
+        "stroke-width": 3,
+        "source_url": "https://en.wikipedia.org/wiki/Middle_strike_campaign"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            39.7015,
+            47.2357
+          ],
+          [
+            39.42,
+            47.265
+          ],
+          [
+            39.18,
+            47.285
+          ],
+          [
+            38.8969,
+            47.2362
+          ],
+          [
+            38.62,
+            47.22
+          ],
+          [
+            38.32,
+            47.17
+          ],
+          [
+            38.2326,
+            47.15732
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "polygon-r280-20km-buffer",
+      "properties": {
+        "name": "R-280 / E58 Road Corridor ~20 km Buffer Zone (Reference Map Shaded Corridor)",
+        "feature_type": "corridor_buffer_polygon",
+        "buffer_distance_km": 20,
+        "depicted_in_reference_image": true,
+        "fill": "#F5B041",
+        "fill-opacity": 0.4,
+        "stroke": "#D68910",
+        "stroke-width": 1.5,
+        "source_url": "https://acleddata.com/report/ukraines-drone-campaign-dismantling-russias-military-supply-network-occupied-south"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              34.41644,
+              45.25064
+            ],
+            [
+              34.56015,
+              45.47513
+            ],
+            [
+              34.59355,
+              45.59447
+            ],
+            [
+              34.75481,
+              45.79982
+            ],
+            [
+              34.76691,
+              45.9407
+            ],
+            [
+              34.86806,
+              45.94708
+            ],
+            [
+              34.95493,
+              46.00063
+            ],
+            [
+              35.01106,
+              46.10886
+            ],
+            [
+              34.99484,
+              46.23568
+            ],
+            [
+              35.26431,
+              46.52116
+            ],
+            [
+              35.37685,
+              46.61026
+            ],
+            [
+              35.53258,
+              46.52918
+            ],
+            [
+              35.73389,
+              46.49985
+            ],
+            [
+              36.36248,
+              46.5245
+            ],
+            [
+              36.83043,
+              46.58606
+            ],
+            [
+              36.9187,
+              46.62967
+            ],
+            [
+              37.03637,
+              46.76203
+            ],
+            [
+              37.20302,
+              46.84541
+            ],
+            [
+              37.57507,
+              46.89579
+            ],
+            [
+              37.96307,
+              46.89314
+            ],
+            [
+              38.3149,
+              46.96412
+            ],
+            [
+              38.39626,
+              47.02573
+            ],
+            [
+              38.43416,
+              47.09838
+            ],
+            [
+              38.44137,
+              47.17999
+            ],
+            [
+              38.4168,
+              47.25816
+            ],
+            [
+              38.32973,
+              47.34351
+            ],
+            [
+              38.2305,
+              47.36731
+            ],
+            [
+              37.92002,
+              47.31169
+            ],
+            [
+              37.73219,
+              47.32435
+            ],
+            [
+              37.24511,
+              47.27884
+            ],
+            [
+              37.08304,
+              47.24944
+            ],
+            [
+              36.94938,
+              47.19346
+            ],
+            [
+              36.66077,
+              46.99695
+            ],
+            [
+              36.32745,
+              46.94306
+            ],
+            [
+              35.75145,
+              46.92033
+            ],
+            [
+              35.66415,
+              46.93185
+            ],
+            [
+              35.41584,
+              47.04838
+            ],
+            [
+              35.27346,
+              47.0298
+            ],
+            [
+              35.14548,
+              46.96227
+            ],
+            [
+              34.99099,
+              46.8404
+            ],
+            [
+              34.45073,
+              46.28336
+            ],
+            [
+              34.35052,
+              46.03563
+            ],
+            [
+              34.3419,
+              45.93677
+            ],
+            [
+              34.22361,
+              45.8124
+            ],
+            [
+              34.17613,
+              45.65548
+            ],
+            [
+              33.87532,
+              45.178
+            ],
+            [
+              33.85228,
+              44.97703
+            ],
+            [
+              33.9341,
+              44.82833
+            ],
+            [
+              34.01174,
+              44.76564
+            ],
+            [
+              34.10955,
+              44.74586
+            ],
+            [
+              34.40108,
+              44.83018
+            ],
+            [
+              34.60752,
+              44.83578
+            ],
+            [
+              34.73419,
+              44.87036
+            ],
+            [
+              35.29412,
+              44.8743
+            ],
+            [
+              35.54207,
+              44.92217
+            ],
+            [
+              35.81747,
+              45.01348
+            ],
+            [
+              36.08848,
+              45.06159
+            ],
+            [
+              36.37859,
+              45.09696
+            ],
+            [
+              36.5032,
+              45.05115
+            ],
+            [
+              36.58511,
+              45.04897
+            ],
+            [
+              36.6785,
+              45.09013
+            ],
+            [
+              36.74145,
+              45.17045
+            ],
+            [
+              36.75215,
+              45.31154
+            ],
+            [
+              36.68714,
+              45.41468
+            ],
+            [
+              36.54772,
+              45.49422
+            ],
+            [
+              36.37415,
+              45.51988
+            ],
+            [
+              35.85742,
+              45.4515
+            ],
+            [
+              35.25261,
+              45.29249
+            ],
+            [
+              34.69608,
+              45.29301
+            ],
+            [
+              34.55063,
+              45.25374
+            ],
+            [
+              34.41644,
+              45.25064
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node-rostov-on-don",
+      "properties": {
+        "name": "Rostov-on-Don",
+        "feature_type": "city_hub",
+        "role": "Official Eastern Terminus of Federal Highway R-280 'Novorossiya'",
+        "shown_on_reference_image": false,
+        "source_url": "https://en.wikipedia.org/wiki/Middle_strike_campaign"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.7015,
+          47.2357
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node-taganrog",
+      "properties": {
+        "name": "Taganrog",
+        "feature_type": "city_hub",
+        "role": "Rostov Oblast Port Hub on R-280",
+        "shown_on_reference_image": false,
+        "source_url": "https://en.wikipedia.org/wiki/Middle_strike_campaign"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.8969,
+          47.2362
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node-novoazovsk-border",
+      "properties": {
+        "name": "Novoazovsk / Veselo-Voznesenka Border",
+        "feature_type": "border_crossing",
+        "role": "Eastern Edge of Reference Map Corridor (Donetsk–Rostov Border)",
+        "shown_on_reference_image": true,
+        "source_url": "https://acleddata.com/report/ukraines-drone-campaign-dismantling-russias-military-supply-network-occupied-south"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.2326,
+          47.15732
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node-mariupol",
+      "properties": {
+        "name": "Mariupol",
+        "feature_type": "city_hub",
+        "role": "Major Azov Coast Logistics Hub on R-280 / E58 (M14)",
+        "shown_on_reference_image": true,
+        "source_url": "https://acleddata.com/report/ukraines-drone-campaign-dismantling-russias-military-supply-network-occupied-south"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.5434,
+          47.0971
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node-berdiansk",
+      "properties": {
+        "name": "Berdiansk",
+        "feature_type": "city_hub",
+        "role": "Azov Coast Port & Transit Hub on R-280 / E58 (M14)",
+        "shown_on_reference_image": true,
+        "source_url": "https://acleddata.com/report/ukraines-drone-campaign-dismantling-russias-military-supply-network-occupied-south"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.7987,
+          46.7556
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node-melitopol",
+      "properties": {
+        "name": "Melitopol",
+        "feature_type": "city_hub",
+        "role": "Major Zaporizhzhia Junction (M14 / E58 meets M18 / E105 South toward Crimea)",
+        "shown_on_reference_image": true,
+        "source_url": "https://militarnyi.com/en/news/ukraine-strikes-at-least-six-bridges-along-russia-s-key-logistics-route-since-early-october/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.3653,
+          46.8489
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "crossing-henichesk",
+      "properties": {
+        "name": "Henichesk (Arabat Spit Bridge Crossing)",
+        "feature_type": "bridge_crossing",
+        "role": "Key Fixed Crossing Marked on Reference Map (Blue X)",
+        "shown_on_reference_image": true,
+        "source_url": "https://acleddata.com/report/ukraines-drone-campaign-dismantling-russias-military-supply-network-occupied-south"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.8058,
+          46.1767
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "crossing-chonhar",
+      "properties": {
+        "name": "Chonhar (Chongar) Bridge Crossing",
+        "feature_type": "bridge_crossing",
+        "role": "Primary Mainland–Crimea Road Bridge Crossing Marked on Reference Map (Blue X)",
+        "shown_on_reference_image": true,
+        "source_url": "https://acleddata.com/report/ukraines-drone-campaign-dismantling-russias-military-supply-network-occupied-south"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.5444,
+          45.9878
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "crossing-dzhankoy",
+      "properties": {
+        "name": "Dzhankoy",
+        "feature_type": "city_and_crossing_hub",
+        "role": "Northern Crimea Road & Rail Hub Marked on Reference Map (Blue X)",
+        "shown_on_reference_image": true,
+        "source_url": "https://en.wikipedia.org/wiki/Crimea"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.3933,
+          45.7086
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node-simferopol",
+      "properties": {
+        "name": "Simferopol",
+        "feature_type": "city_hub",
+        "role": "Crimea Capital & R-280 / Tavrida (A-291) Junction Hub",
+        "shown_on_reference_image": true,
+        "source_url": "https://en.wikipedia.org/wiki/Crimea"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.1,
+          44.9484
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node-feodosia",
+      "properties": {
+        "name": "Feodosia",
+        "feature_type": "city_hub",
+        "role": "Eastern Crimea Coastal Hub along Simferopol–Kerch Corridor",
+        "shown_on_reference_image": true,
+        "source_url": "https://en.wikipedia.org/wiki/Crimea"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.3824,
+          45.0319
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "crossing-kerch",
+      "properties": {
+        "name": "Kerch / Kerch Strait Crossing",
+        "feature_type": "bridge_crossing",
+        "role": "Eastern Terminus & Strait Crossing Marked on Reference Map (Blue X)",
+        "shown_on_reference_image": true,
+        "source_url": "https://acleddata.com/report/ukraines-drone-campaign-dismantling-russias-military-supply-network-occupied-south"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.555,
+          45.28
+        ]
+      }
+    }
+  ]
+}
